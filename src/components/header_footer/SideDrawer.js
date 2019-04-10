@@ -11,7 +11,14 @@ const SideDrawer = (props) => {
             open={props.open}
             onClose={()=> props.onClose(false)}
         >
-            drawer
+            
+            <List component="nav">
+                <ListItem button onClick={console.log('Featured')}>
+                    Event starts in
+                </ListItem>
+            </List>
+
+
         </Drawer>
     );
 };
