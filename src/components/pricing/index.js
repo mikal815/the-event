@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import MyButton from '../utlis/MyButton';
 
 class Pricing extends Component {
 
@@ -25,7 +26,12 @@ class Pricing extends Component {
                         {this.state.desc[i]}
                     </div>
                     <div className="pricing_buttons">
-                        button
+                        <MyButton
+                            text="Purchase"
+                            bck="#ffa800"
+                            color="#ffffff"
+                            link={this.state.linkto[i]}
+                        />
                     </div>
                 </div>
             </div>
