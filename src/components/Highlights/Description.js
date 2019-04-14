@@ -10,6 +10,9 @@ const Description = () => {
                 Per dolorum detraxit expetendis ei, eam sint timeam an. Ei dolores apeirian pri. 
                 Quo in habemus insolens, eu vidit referrentur nam, eam ea discere facilisis. 
                 Ne sea sonet graeci comprehensam. Graece salutandi persecuti ad qui.
+                Per dolorum detraxit expetendis ei, eam sint timeam an. Ei dolores apeirian pri. 
+                Quo in habemus insolens, eu vidit referrentur nam, eam ea discere facilisis. 
+                Ne sea sonet graeci comprehensam. Graece salutandi persecuti ad qui.
                 </div>
             </div>
         </Fade>
