@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 
+import MyButton from '../utlis/MyButton';
+
 class Discount extends Component {
 
     state = {
@@ -45,9 +47,7 @@ class Discount extends Component {
                                 Ne sea sonet graeci comprehensam. Graece salutandi persecuti ad qui.
                             </p>
                             
-                            <div>
-                                Button
-                            </div>
+                            <MyButton/>
                         </div>
 
                     </Slide>
