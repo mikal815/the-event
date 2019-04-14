@@ -45,7 +45,7 @@ class TimeUntil extends Component {
                 <div className="countdown_bottom">
                     <div className="countdown_item">
                         <div className="countdown_time">
-                            23
+                            {this.state.days}
                         </div>
                         <div className="countdown_tag">
                             Days
@@ -54,7 +54,7 @@ class TimeUntil extends Component {
                     </div>
                     <div className="countdown_item">
                         <div className="countdown_time">
-                            2
+                            {this.state.hours}
                         </div>
                         <div className="countdown_tag">
                             Hours
@@ -63,7 +63,7 @@ class TimeUntil extends Component {
                     </div>
                     <div className="countdown_item">
                         <div className="countdown_time">
-                            20
+                            {this.state.minutes}
                         </div>
                         <div className="countdown_tag">
                             Min
@@ -72,7 +72,7 @@ class TimeUntil extends Component {
                     </div>
                     <div className="countdown_item">
                         <div className="countdown_time">
-                            40
+                            {this.state.seconds}
                         </div>
                         <div className="countdown_tag">
                             Sec
