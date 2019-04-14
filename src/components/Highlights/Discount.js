@@ -47,7 +47,12 @@ class Discount extends Component {
                                 Ne sea sonet graeci comprehensam. Graece salutandi persecuti ad qui.
                             </p>
                             
-                            <MyButton/>
+                            <MyButton
+                                text="Purchase tickets"
+                                bck="#ffa800"
+                                color="#ffffff"
+                                link="http://google.com"
+                            />
                         </div>
 
                     </Slide>
