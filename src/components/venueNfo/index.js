@@ -49,7 +49,7 @@ const VenueNfo = () => {
                                 Event Location
                                 </div>
                                 <div className="vn_desc">
-                                    521 5th street, Coastal, NJ 08223
+                                    925 5th street, Ocean City, NJ 08226
                                 </div>
                             </div>
 
