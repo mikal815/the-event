@@ -214,6 +214,12 @@ footer .footer_copyright {
     margin-bottom: 90px;
 }
 
+.vn_right {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 54px;
+}
+
 /*====================
         HIGHLIGHTS
 ======================*/
@@ -358,3 +364,4 @@ footer .footer_copyright {
     padding: 15px 20px;
     text-align: center;
 }
+

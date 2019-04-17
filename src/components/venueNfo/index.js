@@ -48,7 +48,7 @@ const VenueNfo = () => {
                                 <div className="vn_title">
                                 Event Location
                                 </div>
-                                <div className="vn_desc">
+                                <div className="vn_right">
                                     925 5th street, Ocean City, NJ 08226
                                 </div>
                             </div>
