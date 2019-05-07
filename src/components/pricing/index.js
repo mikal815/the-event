@@ -7,13 +7,13 @@ class Pricing extends Component {
 
     state = {
         prices:[100,150,250],
-        positions:['Balcony','Floor','VIP'],
+        positions:['Floor','Balcony','VIP'],
         desc:[
-            'Per dolorum detraxit expetendis ei, eam sint timeam an. Ei dolores apeirian pri. Quo in habemus insolens, eu vidit',
-            'referrentur nam, eam ea discere facilisis. Ne sea sonet graeci comprehensam. Graece salutandi persecuti ad qui.',
-            'Quo in habemus insolens, eu vidit referrentur nam, eam ea discere facilisis. Ne sea sonet graeci comprehensam.ece ndi cuti ad qui.' 
+            'Nice comfortable seating. Good if you want a nice view but do not mind being farther away from the performers',
+            'This is the general admission standing area. Hang out at one of the side bars or get up close to the stage. Your choice!',
+            'This all inclusive package gives you access to the floor, balcony, and backstage VIP area (with bottle service)' 
         ],
-        linkto:['http://sales/b','http://sales/f','http://sales/v'],
+        linkto:['http://sales/f','http://sales/b','http://sales/v'],
         delay:[500,0,500]
     }
 

@@ -42,9 +42,7 @@ class Discount extends Component {
                         <div className="discount_description">
                             <h3>Purchase tickets before June 20th</h3>
                             <p>
-                                Per dolorum detraxit expetendis ei, eam sint timeam an. Ei dolores apeirian pri. 
-                                Quo in habemus insolens, eu vidit referrentur nam, eam ea discere facilisis. 
-                                Ne sea sonet graeci comprehensam. Graece salutandi persecuti ad qui.
+                                Tickets on sale now! Limited seats available, get yours before it's too late! 
                             </p>
                             
                             <MyButton
