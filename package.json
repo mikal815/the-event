@@ -31,5 +31,5 @@
   "engines": {
     "node": "8.11.1"
   },
-  "homepage" : "http://mikal815.github.io/the-event"
+  "homepage": "."
 }
