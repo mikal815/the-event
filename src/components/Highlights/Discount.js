@@ -7,22 +7,22 @@ import MyButton from '../utlis/MyButton';
 class Discount extends Component {
 
     state = {
-        discountStart:0,
-        discountEnd:30
+        discountStart: 0,
+        discountEnd: 30
     }
 
     percentage = () => {
-        if(this.state.discountStart < this.state.discountEnd){
+        if (this.state.discountStart < this.state.discountEnd) {
             this.setState({
                 discountStart: this.state.discountStart + 1
             })
         }
     }
 
-    componentDidUpdate(){
-        setTimeout(()=>{
+    componentDidUpdate() {
+        setTimeout(() => {
             this.percentage()
-        },30)
+        }, 30)
     }
 
     render() {
@@ -30,21 +30,21 @@ class Discount extends Component {
             <div className="center_wrapper">
                 <div className="discount_wrapper">
                     <Fade
-                        onReveal={()=> this.percentage()}
+                        onReveal={() => this.percentage()}
                     >
                         <div className="discount_percentage">
                             <span>{this.state.discountStart}%</span>
                             <span>OFF</span>
                         </div>
                     </Fade>
-                    
+
                     <Slide right>
                         <div className="discount_description">
-                            <h3>Purchase tickets before June 20th</h3>
+                            <h3>Purchase tickets before October 20th</h3>
                             <p>
-                                Tickets on sale now! Limited seats available, get yours before it's too late! 
+                                Tickets on sale now! Limited seats available, get yours before it's too late!
                             </p>
-                            
+
                             <MyButton
                                 text="Purchase tickets"
                                 bck="#ffa800"
@@ -54,7 +54,7 @@ class Discount extends Component {
                         </div>
 
                     </Slide>
-                    
+
                 </div>
             </div>
         );

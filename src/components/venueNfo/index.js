@@ -25,7 +25,7 @@ const VenueNfo = () => {
                                         Event Date & Time
                                 </div>
                                     <div className="vn_desc">
-                                        12 November 2019 @10.00 pm
+                                        November 12th 2021 @8.00 pm
                                 </div>
                                 </div>
 
@@ -33,30 +33,30 @@ const VenueNfo = () => {
                         </div>
 
                     </Zoom>
-                    
-                    <Zoom duration={500} delay={500}>                        
-                    <div className="vn_item">
-                        <div className="vn_outer">
-                            <div className="vn_inner">
-                                <div className="vn_icon_square bck_yellow"></div>
-                                <div 
-                                    className="vn_icon"
-                                    style={{
-                                        background:`url(${icon_location})`
-                                    }}
-                                ></div>
-                                <div className="vn_title">
-                                Event Location
-                                </div>
-                                <div className="vn_right">
-                                    925 5th street, Ocean City, NJ 08226
-                                </div>
-                            </div>
 
+                    <Zoom duration={500} delay={500}>
+                        <div className="vn_item">
+                            <div className="vn_outer">
+                                <div className="vn_inner">
+                                    <div className="vn_icon_square bck_yellow"></div>
+                                    <div
+                                        className="vn_icon"
+                                        style={{
+                                            background: `url(${icon_location})`
+                                        }}
+                                    ></div>
+                                    <div className="vn_title">
+                                        Event Location
+                                </div>
+                                    <div className="vn_right">
+                                        925 5th street, Ocean City, NJ 08226
+                                </div>
+                                </div>
+
+                            </div>
                         </div>
-                    </div>
                     </Zoom>
-                    
+
 
                 </div>
 
