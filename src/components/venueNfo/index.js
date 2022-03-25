@@ -23,10 +23,10 @@ const VenueNfo = () => {
                                     ></div>
                                     <div className="vn_title">
                                         Event Date & Time
-                                </div>
+                                    </div>
                                     <div className="vn_desc">
-                                        November 12th 2021 @8.00 pm
-                                </div>
+                                        November 12th 2022 @8.00 pm
+                                    </div>
                                 </div>
 
                             </div>
@@ -47,10 +47,10 @@ const VenueNfo = () => {
                                     ></div>
                                     <div className="vn_title">
                                         Event Location
-                                </div>
+                                    </div>
                                     <div className="vn_right">
                                         925 5th street, Ocean City, NJ 08226
-                                </div>
+                                    </div>
                                 </div>
 
                             </div>

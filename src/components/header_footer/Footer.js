@@ -7,10 +7,10 @@ const Footer = () => {
             <Fade delay={500}>
                 <div className="font_righteous footer_logo_venue">Boardwalk Pier Stage</div>
                 <div className="footer_copyright">
-                    BPS 2019 All rights reserved
+                    BPS 2022 All rights reserved
                 </div>
             </Fade>
-            
+
         </footer>
     );
 };

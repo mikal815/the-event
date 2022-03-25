@@ -4,7 +4,7 @@ import Slide from 'react-reveal/Slide';
 class TimeUntil extends Component {
 
     state = {
-        deadline: 'Nov, 12, 2021',
+        deadline: 'Nov, 12, 2022',
         days: '0',
         hours: '0',
         minutes: '0',
@@ -41,7 +41,7 @@ class TimeUntil extends Component {
                 <div className="countdown_wrapper">
                     <div className="countdown_top">
                         Event starts in
-                </div>
+                    </div>
                     <div className="countdown_bottom">
                         <div className="countdown_item">
                             <div className="countdown_time">
@@ -49,7 +49,7 @@ class TimeUntil extends Component {
                             </div>
                             <div className="countdown_tag">
                                 Days
-                        </div>
+                            </div>
 
                         </div>
                         <div className="countdown_item">
@@ -58,7 +58,7 @@ class TimeUntil extends Component {
                             </div>
                             <div className="countdown_tag">
                                 Hours
-                        </div>
+                            </div>
 
                         </div>
                         <div className="countdown_item">
@@ -67,7 +67,7 @@ class TimeUntil extends Component {
                             </div>
                             <div className="countdown_tag">
                                 Min
-                        </div>
+                            </div>
 
                         </div>
                         <div className="countdown_item">
@@ -76,7 +76,7 @@ class TimeUntil extends Component {
                             </div>
                             <div className="countdown_tag">
                                 Sec
-                        </div>
+                            </div>
 
                         </div>
 
